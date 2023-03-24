@@ -4,6 +4,132 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(https://www.awn.com/sites/default/files/styles/original/public/image/featured/1047633-hulu-orders-two-seasons-animated-comedy-rick-and-morty-team_0.jpg?itok=rI_7uOAz);
+    background-color: antiquewhite;
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=6401&resolucion=3840x2160);
+    background-position: center;
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+header {
+    background-color: rgba(255, 255, 255, 0.444);
+    border-radius: 10px;   
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+header nav ul {
+    align-items: end;
+    list-style: none;
+    padding: 10px 50px;
+    border: 10px;
+    display: flex;
+
+}
+header nav ul li {
+    padding: 10px;
+
+}
+ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+header nav ul li {
+    position: relative;
+    display: inline-block;
+    padding: 30px 30px; 
+    overflow: hidden; 
+    transition: 0.2s;
+    border-radius: 10px;
+
+}
+li:hover {
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.1s;
+}
+.cont-section-synopsis {
+    background-color: rgba(255, 255, 255, 0.444);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+
+}
+.cont-section-characters {
+    background-color: rgba(255, 255, 255, 0.444);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+}
+.cont-section-watch {
+    background-color: rgba(255, 255, 255, 0.444);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.pewatch {
+    font-size: 10px;
+    text-align: center;
+}
+.hbologo {
+    height: 150px;
+    margin: 1px;
+    padding: 5px;
+    float: right;
+
+}
+footer {
+    background-color: rgba(255, 255, 255, 0.444);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
+.git-contact {
+    align-items: end;
+}
+.logo {
+    height: 180px;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.sinopsis2 {
+    height: 300px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 30px 30px; 
+    overflow: hidden; 
+    transition: 0.2s;
+    border-radius: 10px;
+}
+a:hover {
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.1s; 
 }
